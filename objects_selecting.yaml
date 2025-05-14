@@ -1,0 +1,10 @@
+input_variables: [request]
+output_parser: null
+template: '1. Очисти [text] от слов-маркеров. 
+  2. Найди основные сущности в [text]. 
+  В ответе выведи только основных сущностей без описания. 
+
+  [text]: {request}
+  '
+template_format: f-string
+_type: prompt
